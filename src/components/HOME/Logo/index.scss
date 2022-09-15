@@ -1,0 +1,14 @@
+.logo-container {
+   .solid-logo {
+    width: 400px;
+    margin-left: 70%;
+    margin-top: -30%;
+    height: 600px;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    transform-style: preserve-3d;
+    animation: rotateOut 1s linear both;
+    animation: rotateIn 2s linear both;
+    animation-delay:1.4s;
+    }
+}
