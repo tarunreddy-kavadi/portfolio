@@ -1,14 +1,21 @@
 .logo-container {
    .solid-logo {
-    width: 400px;
-    margin-left: 70%;
+    width: 40%;
+    margin-left: 60%;
     margin-top: -30%;
-    height: 600px;
+    height: 650px;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     transform-style: preserve-3d;
-    animation: rotateOut 1s linear both;
-    animation: rotateIn 2s linear both;
-    animation-delay:1.4s;
+    //animation: rotateOut 1s linear both;
+    //animation: rotateIn 2s linear both;
+    // animation-delay:1.4s;
+    //animation: fadeIn 10s 11s;
+    animation: backInRight 3s 1s;
+  animation-fill-mode: forwards;
+ animation-delay:0s;
+   
+ cursor: pointer;
+
+   }
     }
-}
