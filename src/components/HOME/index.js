@@ -32,7 +32,7 @@ const Home =()=>{
                 <img src={LogoTitle} alt="developer"/>
                 <AnimatedLetters letterClass={letterClass}
                 strArray={nameArray}
-                idx={15} />
+                idx={15} />  //1.5 sec late 
                 <br />
                 <AnimatedLetters letterClass={letterClass}
                 strArray={jobArray}
