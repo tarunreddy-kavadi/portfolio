@@ -1,3 +1,25 @@
+@media screen and (max-width: 395px) {
+    .stage-cube-cont{
+        margin-top:30%;
+        width:5%;
+        height:25%;
+    }
+    .stage-cube-cont .cubespinner{
+        width: 50px;
+        height: 50px;
+        }
+    .text-zone {
+        position:relative;
+        transform: none;
+        opacity:10em;
+        box-sizing: border-box;
+        margin-left:40px;
+      }
+      .text-zone .h1{
+        font-size:45px;
+      }
+  }
+
 .stage-cube-cont{
     width:50%;
     height: 500%;
@@ -7,8 +29,7 @@
     position:absolute;
     right:0;
     overflow: hidden;
-
-
+    
 .cubespinner {
     animation-name: spincube;
     animation-timing-function: ease-in-out;
@@ -20,8 +41,8 @@
 
     div {
         position:absolute;
-        width: 200px;
-        height: 200px;
+        width: 100px;
+        height: 100px;
         border: 1px solid #ccc;
         background: rgba(255, 255, 255, 0.4);
         text-align: center;

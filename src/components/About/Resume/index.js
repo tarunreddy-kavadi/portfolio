@@ -5,10 +5,11 @@ import './index.scss'
 
 
 const Resume = () => {
-
+    
 	// Function will execute on click of button
 	const onButtonClick = () => {
 		// using Java Script method to get PDF file
+       try{
 		fetch('Tarun Reddy Kavadi.pdf').then(response => {
 			response.blob().then(blob => {
 				// Creating new object of PDF file
@@ -19,7 +20,7 @@ const Resume = () => {
 				alink.download = 'Tarun Reddy Kavadi.pdf';
 				alink.click();
 			})
-		})
+		})} catch(error){console.log(error)}
 	}
 	return (
 		<>

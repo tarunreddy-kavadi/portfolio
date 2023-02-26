@@ -10,7 +10,7 @@ import Loader from 'react-loaders'
 
 const Home =()=>{
     const [letterClass, setLetterClass] = useState('text-animate')
-    const nameArray =['a','r','u','n',' ','R','e','d','d','y',' ','K','a','v','a','d','i']
+    const nameArray =['a','r','u','n',' ','R','e','d','d','y','','','K','a','v','a','d','i']
     const jobArray=['w','e','b',' ','d','e','v','e','l','o','p','e','r','.']
     
     useEffect(() => {
@@ -24,7 +24,6 @@ const Home =()=>{
         <div className="home-page">
             <div className="text-zone">
                 <h1> 
-                    
                 <span className = {letterClass}>H</span>
                 <span className = {`${letterClass} _12`}>i,</span>
                 <br />

@@ -1,4 +1,7 @@
 .logo-container {
+  @media screen and (max-width: 395px) {
+    display:none;
+  }
    .solid-logo {
     width: 40%;
     margin-left: 60%;
@@ -19,3 +22,5 @@
 
    }
     }
+    
+    
