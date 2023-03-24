@@ -10,7 +10,7 @@ const Resume = () => {
 	const onButtonClick = () => {
 		// using Java Script method to get PDF file
        try{
-		fetch('Tarun Reddy Kavadi.pdf').then(response => {
+		fetch('Tarun Reddy Kavadi CV.pdf').then(response => {
 			response.blob().then(blob => {
 				// Creating new object of PDF file
 				const fileURL = window.URL.createObjectURL(blob);
