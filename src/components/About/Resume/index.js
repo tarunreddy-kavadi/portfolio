@@ -9,6 +9,7 @@ const Resume = () => {
 	// Function will execute on click of button
 	const onButtonClick = () => {
 		// using Java Script method to get PDF file
+		
        try{
 		fetch('Tarun Reddy Kavadi CV.pdf').then(response => {
 			response.blob().then(blob => {
@@ -20,7 +21,7 @@ const Resume = () => {
 				alink.download = 'Tarun Reddy Kavadi.pdf';
 				alink.click();
 			})
-		})} catch(error){console.log(error)}
+		})} catch(error){console.log(error+"its not working")}
 	}
 	return (
 		<>
