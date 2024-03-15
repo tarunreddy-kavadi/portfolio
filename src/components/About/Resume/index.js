@@ -11,7 +11,7 @@ const Resume = () => {
 		// using Java Script method to get PDF file
 		
        try{
-		fetch('TarunReddy_Kavadi.pdf').then(response => {
+		fetch('Tarun.K.pdf').then(response => {
 			response.blob().then(blob => {
 				// Creating new object of PDF file
 				const fileURL = window.URL.createObjectURL(blob);
